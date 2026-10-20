@@ -1,0 +1,35 @@
+# SocietyCare - Public Repository
+
+# Local database configuration
+/config/database.php
+
+# Environment files
+.env
+.env.*
+
+# Logs and temporary files
+*.log
+*.tmp
+*.bak
+
+# Editor settings
+.vscode/
+.idea/
+
+# Operating system files
+Thumbs.db
+.DS_Store
+
+# Private academic documentation
+/documentation/
+
+# Unreviewed screenshots
+/screenshots/
+
+# Uploaded files
+/uploads/
+
+# Archives and backups
+*.zip
+*.rar
+*.7z

@@ -1,0 +1,156 @@
+/* Google Font */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:'Poppins',sans-serif;
+}
+
+body{
+    background:#f5f7fb;
+    color:#333;
+}
+
+/* Navbar */
+
+.navbar{
+    background:rgba(0,0,0,0.25);
+    backdrop-filter:blur(10px);
+    padding:15px 0;
+}
+
+/* Hero Section */
+
+.hero-section{
+    min-height:100vh;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    text-align:center;
+    background:linear-gradient(135deg,#0f4c81,#1f7aec,#4facfe);
+    padding-top:80px;
+}
+
+.hero-section h1{
+    font-weight:700;
+}
+
+.hero-section p{
+    max-width:750px;
+    margin:auto;
+}
+
+/* Feature Cards */
+
+.feature-card{
+    background:#fff;
+    border-radius:15px;
+    padding:30px;
+    text-align:center;
+    box-shadow:0 8px 25px rgba(0,0,0,.08);
+    transition:.3s;
+    height:100%;
+}
+
+.feature-card:hover{
+    transform:translateY(-8px);
+    box-shadow:0 15px 35px rgba(0,0,0,.15);
+}
+
+.feature-card h5{
+    font-weight:600;
+    margin-bottom:15px;
+}
+
+/* Footer */
+
+.footer{
+    background:#0f172a;
+    color:white;
+    padding:20px;
+}
+
+.auth-body{
+    min-height:100vh;
+    background:linear-gradient(135deg,#0f4c81,#1f7aec,#4facfe);
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    padding:30px;
+}
+
+.auth-card{
+    background:#fff;
+    max-width:600px;
+    margin:auto;
+    padding:35px;
+    border-radius:18px;
+    box-shadow:0 20px 45px rgba(0,0,0,.18);
+}
+
+.auth-card label{
+    font-weight:500;
+    margin-bottom:6px;
+}
+
+.auth-card .form-control{
+    padding:12px;
+    border-radius:10px;
+}
+
+.priority-badge,
+.status-badge{
+    padding:5px 12px;
+    border-radius:20px;
+    font-weight:bold;
+    display:inline-block;
+}
+
+.priority-high{
+    background:#991b1b;
+    color:white;
+}
+
+.priority-medium{
+    background:#f97316;
+    color:white;
+}
+
+.priority-low{
+    background:#facc15;
+    color:black;
+}
+
+.status-pending{
+    background:#facc15;
+    color:black;
+}
+
+.status-progress{
+    background:#60a5fa;
+    color:white;
+}
+
+.status-resolved{
+    background:#22c55e;
+    color:white;
+}
+
+.status-closed{
+    background:#374151;
+    color:white;
+}
+
+.table-responsive table{
+    table-layout: fixed !important;
+    width: 100% !important;
+}
+
+.table-responsive th,
+.table-responsive td{
+    white-space: normal !important;
+    overflow-wrap: anywhere !important;
+    word-break: break-word !important;
+}
